@@ -1,0 +1,14 @@
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\bin\Debug\net8.0\DAL.dll
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\bin\Debug\net8.0\DAL.pdb
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\obj\Debug\net8.0\DAL.dll
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\obj\Debug\net8.0\DAL.pdb
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+D:\.NET\Project\TruongAnhTuan_SE1850\DAL\obj\Debug\net8.0\ref\DAL.dll
