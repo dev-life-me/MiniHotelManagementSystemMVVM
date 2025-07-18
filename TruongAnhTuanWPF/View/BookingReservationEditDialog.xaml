@@ -19,9 +19,8 @@
 
             <Label Content="Trạng thái:"/>
             <ComboBox SelectedValue="{Binding BookingStatus, Mode=TwoWay}" SelectedValuePath="Tag">
-                <ComboBoxItem Content="Đang xử lý" Tag="0"/>
                 <ComboBoxItem Content="Đã xác nhận" Tag="1"/>
-                <ComboBoxItem Content="Đã hủy" Tag="2"/>
+                <ComboBoxItem Content="Đã hủy" Tag="0"/>
             </ComboBox>
 
             

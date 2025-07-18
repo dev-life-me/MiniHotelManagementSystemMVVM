@@ -20,10 +20,24 @@ namespace TruongAnhTuanWPF.View
     /// </summary>
     public partial class CustomerWindow : Window
     {
+        private Customer _customer;
         public CustomerWindow(Customer customer)
         {
             InitializeComponent();
+            _customer = customer;
             WelcomeText.Text = $"Welcome, {customer.CustomerFullName}!";
+        }
+
+        private void Account_Click(object sender, RoutedEventArgs e)
+        {
+            AccountWindow aw = new AccountWindow(_customer);
+            aw.ShowDialog();
+        }
+
+        private void History_Click(object sender, RoutedEventArgs e)
+        {
+            HistoryWindow hw = new HistoryWindow(_customer);
+            hw.ShowDialog();
         }
     }
 }

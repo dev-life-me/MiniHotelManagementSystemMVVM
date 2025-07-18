@@ -60,5 +60,10 @@ namespace BLL.Services
             var allIds = _reservationRepo.GetAll().Select(r => r.BookingReservationId);
             return allIds.Any() ? allIds.Max() + 1 : 1;
         }
+
+        public List<BookingReservation> GetReservationsByCustomerId(int customerId)
+        {
+            return _reservationRepo.GetByCustomerId(customerId).ToList();
+        }
     }
 } 

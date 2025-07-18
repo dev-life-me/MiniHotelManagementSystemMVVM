@@ -35,5 +35,13 @@ namespace DAL.Repositories
             _context.BookingReservations.Remove(reservation);
             _context.SaveChanges();
         }
+
+        public IEnumerable<BookingReservation> GetByCustomerId(int customerId)
+        {
+            return _context.BookingReservations
+                .Include(r => r.BookingDetails)
+                .Where(r => r.CustomerId == customerId)
+                .ToList();
+        }
     }
 } 

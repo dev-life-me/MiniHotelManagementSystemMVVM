@@ -3,12 +3,80 @@
   "WorkspaceRootPath": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|d:\\.net\\project\\truonganhtuan_se1850\\dal\\repositories\\bookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\bookingdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\relaycommad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\relaycommad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DF642D9-B1F6-4B48-B50C-2E7802496F5D}|BLL\\BLL.csproj|d:\\.net\\project\\truonganhtuan_se1850\\bll\\services\\managebookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF642D9-B1F6-4B48-B50C-2E7802496F5D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\managebookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\customerprofileeditdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\customerprofileeditdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\bookingreservationeditdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\bookingreservationeditdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\historywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\historywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\customereditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\customereditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\customereditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\customereditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\accountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\accountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\historywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\historywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\adminbookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\adminbookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\adminbookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\adminbookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\bookingreservationeditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\bookingreservationeditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\accountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\accountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\adminbookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,116 +87,12 @@
       "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\bookingdetaileditdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\relaycommad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\relaycommad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\admincustomerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\admincustomerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\bookingdetaileditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\bookingdetaileditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\bookingreservationeditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\bookingreservationeditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\roomeditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\roomeditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DF642D9-B1F6-4B48-B50C-2E7802496F5D}|BLL\\BLL.csproj|d:\\.net\\project\\truonganhtuan_se1850\\bll\\services\\managebookingdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF642D9-B1F6-4B48-B50C-2E7802496F5D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\managebookingdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DF642D9-B1F6-4B48-B50C-2E7802496F5D}|BLL\\BLL.csproj|d:\\.net\\project\\truonganhtuan_se1850\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF642D9-B1F6-4B48-B50C-2E7802496F5D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|d:\\.net\\project\\truonganhtuan_se1850\\dal\\entities\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\roomeditdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\roomeditdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|d:\\.net\\project\\truonganhtuan_se1850\\dal\\entities\\bookingreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\bookingreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\adminbookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\adminbookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|d:\\.net\\project\\truonganhtuan_se1850\\dal\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|d:\\.net\\project\\truonganhtuan_se1850\\dal\\entities\\adminacount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\adminacount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\bookingreservationeditdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\bookingreservationeditdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DF642D9-B1F6-4B48-B50C-2E7802496F5D}|BLL\\BLL.csproj|d:\\.net\\project\\truonganhtuan_se1850\\bll\\services\\managecustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF642D9-B1F6-4B48-B50C-2E7802496F5D}|BLL\\BLL.csproj|solutionrelative:bll\\services\\managecustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|d:\\.net\\project\\truonganhtuan_se1850\\dal\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\adminbookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\adminbookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\admincustomerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\admincustomerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\customereditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\customereditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\adminroomwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\adminroomwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\bookingdetaileditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\bookingdetaileditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\view\\bookingreservationeditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\view\\bookingreservationeditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\customereditdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\customereditdialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|d:\\.net\\project\\truonganhtuan_se1850\\dal\\repositories\\bookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40119E0B-8DC0-4135-8BFA-9F2CE3C60C59}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\bookingreservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|d:\\.net\\project\\truonganhtuan_se1850\\truonganhtuanwpf\\viewmodel\\adminroomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79723053-6834-4A6E-A446-B33D91185545}|TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj|solutionrelative:truonganhtuanwpf\\viewmodel\\adminroomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,178 +102,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 305,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RoomEditDialogViewModel.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\RoomEditDialogViewModel.cs",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\RoomEditDialogViewModel.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\RoomEditDialogViewModel.cs",
-              "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\RoomEditDialogViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T16:33:01.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "DAL\\Entities\\Customer.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Entities\\Customer.cs",
-              "RelativeToolTip": "DAL\\Entities\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T16:31:59.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BookingReservation.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Entities\\BookingReservation.cs",
-              "RelativeDocumentMoniker": "DAL\\Entities\\BookingReservation.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Entities\\BookingReservation.cs",
-              "RelativeToolTip": "DAL\\Entities\\BookingReservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T16:31:48.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BookingDetail.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Entities\\BookingDetail.cs",
-              "RelativeDocumentMoniker": "DAL\\Entities\\BookingDetail.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Entities\\BookingDetail.cs",
-              "RelativeToolTip": "DAL\\Entities\\BookingDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T16:18:18.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\BLL\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\AuthService.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\BLL\\Services\\AuthService.cs",
-              "RelativeToolTip": "BLL\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T16:13:29.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\LoginViewModel.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\LoginViewModel.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T16:13:29.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AdminAcount.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Entities\\AdminAcount.cs",
-              "RelativeDocumentMoniker": "DAL\\Entities\\AdminAcount.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Entities\\AdminAcount.cs",
-              "RelativeToolTip": "DAL\\Entities\\AdminAcount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:54:41.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\CustomerRepository.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "DAL\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:40:05.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ManageCustomerService.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\BLL\\Services\\ManageCustomerService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\ManageCustomerService.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\BLL\\Services\\ManageCustomerService.cs",
-              "RelativeToolTip": "BLL\\Services\\ManageCustomerService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowBUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:38:28.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "RelayCommad.cs",
               "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\RelayCommad.cs",
               "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\RelayCommad.cs",
               "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\RelayCommad.cs",
               "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\RelayCommad.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowBsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:31:51.658Z",
+              "WhenOpened": "2025-07-17T08:11:09.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AdminWindow.xaml",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminWindow.xaml",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\AdminWindow.xaml",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminWindow.xaml",
-              "RelativeToolTip": "TruongAnhTuanWPF\\View\\AdminWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-15T15:26:28.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AdminRoomWindow.xaml",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminRoomWindow.xaml",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\AdminRoomWindow.xaml",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminRoomWindow.xaml",
-              "RelativeToolTip": "TruongAnhTuanWPF\\View\\AdminRoomWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-15T15:26:26.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BookingDetailEditDialog.xaml.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml.cs",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml.cs",
-              "RelativeToolTip": "TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BookingReservationEditDialogViewModel.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\BookingReservationEditDialogViewModel.cs",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\BookingReservationEditDialogViewModel.cs",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\BookingReservationEditDialogViewModel.cs",
+              "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\BookingReservationEditDialogViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:25:59.089Z",
+              "WhenOpened": "2025-07-17T08:00:44.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 4,
+              "Title": "HistoryViewModel.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\HistoryViewModel.cs",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\HistoryViewModel.cs",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\HistoryViewModel.cs",
+              "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\HistoryViewModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T07:24:23.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\LoginWindow.xaml",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\LoginWindow.xaml",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-17T07:02:15.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CustomerEditDialog.xaml.cs",
               "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\CustomerEditDialog.xaml.cs",
               "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\CustomerEditDialog.xaml.cs",
@@ -317,127 +164,139 @@
               "RelativeToolTip": "TruongAnhTuanWPF\\View\\CustomerEditDialog.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:25:52.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T07:02:04.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookingDetailEditDialog.xaml",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml",
-              "RelativeToolTip": "TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-15T15:24:51.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BookingReservationEditDialog.xaml.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\BookingReservationEditDialog.xaml.cs",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\BookingReservationEditDialog.xaml.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\BookingReservationEditDialog.xaml.cs",
-              "RelativeToolTip": "TruongAnhTuanWPF\\View\\BookingReservationEditDialog.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "HistoryWindow.xaml.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\HistoryWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\HistoryWindow.xaml.cs",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\HistoryWindow.xaml.cs",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\HistoryWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:24:40.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T06:53:49.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 13,
               "Title": "AdminBookingWindow.xaml.cs",
               "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml.cs",
               "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml.cs",
               "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml.cs",
               "RelativeToolTip": "TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAClAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:21:11.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T06:52:33.574Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\App.xaml.cs",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\App.xaml.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\App.xaml.cs",
-              "RelativeToolTip": "TruongAnhTuanWPF\\App.xaml.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAADwvz0AAABzAAAAAAAAAA==",
+              "Title": "AccountWindow.xaml.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AccountWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\AccountWindow.xaml.cs",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AccountWindow.xaml.cs",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\AccountWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:12:45.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T06:49:12.176Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ManageBookingDetailService.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\BLL\\Services\\ManageBookingDetailService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\ManageBookingDetailService.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\BLL\\Services\\ManageBookingDetailService.cs",
-              "RelativeToolTip": "BLL\\Services\\ManageBookingDetailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAwAAAAAAAAAA==",
+              "Title": "HistoryWindow.xaml",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\HistoryWindow.xaml",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\HistoryWindow.xaml",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\HistoryWindow.xaml",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\HistoryWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T06:48:17.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminBookingWindow.xaml",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T06:47:45.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountWindow.xaml",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AccountWindow.xaml",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\AccountWindow.xaml",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AccountWindow.xaml",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\AccountWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T06:47:16.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerWindow.xaml.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\CustomerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\CustomerWindow.xaml.cs",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\CustomerWindow.xaml.cs",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\CustomerWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAMwCAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:10:03.044Z",
+              "WhenOpened": "2025-07-16T06:42:16.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerWindow.xaml",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\CustomerWindow.xaml",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\CustomerWindow.xaml",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\CustomerWindow.xaml",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\CustomerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T06:37:32.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\AdminWindow.xaml.cs",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\AdminWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T06:36:31.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\AdminWindow.xaml",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminWindow.xaml",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T06:36:17.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerProfileEditDialogViewModel.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\CustomerProfileEditDialogViewModel.cs",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\CustomerProfileEditDialogViewModel.cs",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\CustomerProfileEditDialogViewModel.cs",
+              "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\CustomerProfileEditDialogViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T06:35:45.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BookingDetailEditDialogViewModel.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\BookingDetailEditDialogViewModel.cs",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\BookingDetailEditDialogViewModel.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\BookingDetailEditDialogViewModel.cs",
-              "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\BookingDetailEditDialogViewModel.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAuwCgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:51:38.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RoomEditDialog.xaml",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\RoomEditDialog.xaml",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\RoomEditDialog.xaml",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\RoomEditDialog.xaml",
-              "RelativeToolTip": "TruongAnhTuanWPF\\View\\RoomEditDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-15T14:51:22.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "BookingReservationRepository.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Repositories\\BookingReservationRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\BookingReservationRepository.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Repositories\\BookingReservationRepository.cs",
-              "RelativeToolTip": "DAL\\Repositories\\BookingReservationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:51:09.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CustomerEditDialogViewModel.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\CustomerEditDialogViewModel.cs",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\CustomerEditDialogViewModel.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\CustomerEditDialogViewModel.cs",
-              "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\CustomerEditDialogViewModel.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAYwAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:31:30.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\appsettings.json",
               "RelativeDocumentMoniker": "TruongAnhTuanWPF\\appsettings.json",
@@ -445,110 +304,76 @@
               "RelativeToolTip": "TruongAnhTuanWPF\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-15T14:21:42.934Z",
+              "WhenOpened": "2025-07-16T06:21:51.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookingDetailRepository.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Repositories\\BookingDetailRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\BookingDetailRepository.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\DAL\\Repositories\\BookingDetailRepository.cs",
-              "RelativeToolTip": "DAL\\Repositories\\BookingDetailRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAArwB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:21:15.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ManageBookingService.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\BLL\\Services\\ManageBookingService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\ManageBookingService.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\BLL\\Services\\ManageBookingService.cs",
-              "RelativeToolTip": "BLL\\Services\\ManageBookingService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAIA6wDEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:20:35.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AdminBookingWindow.xaml",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml",
-              "RelativeToolTip": "TruongAnhTuanWPF\\View\\AdminBookingWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-15T14:11:23.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BookingReservationEditDialogViewModel.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\BookingReservationEditDialogViewModel.cs",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\BookingReservationEditDialogViewModel.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\BookingReservationEditDialogViewModel.cs",
-              "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\BookingReservationEditDialogViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:10:36.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "BookingReservationEditDialog.xaml",
               "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\BookingReservationEditDialog.xaml",
               "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\BookingReservationEditDialog.xaml",
               "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\BookingReservationEditDialog.xaml",
               "RelativeToolTip": "TruongAnhTuanWPF\\View\\BookingReservationEditDialog.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-15T14:10:31.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T06:20:43.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AdminRoomViewModel.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\AdminRoomViewModel.cs",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\AdminRoomViewModel.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\AdminRoomViewModel.cs",
-              "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\AdminRoomViewModel.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAUwAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T13:56:13.529Z",
-              "EditorCaption": ""
+              "DocumentIndex": 22,
+              "Title": "BookingDetailEditDialog.xaml",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\BookingDetailEditDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T06:20:36.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AdminCustomerViewModel.cs",
-              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\AdminCustomerViewModel.cs",
-              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\AdminCustomerViewModel.cs",
-              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\AdminCustomerViewModel.cs",
-              "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\AdminCustomerViewModel.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAswBUAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T13:55:36.743Z",
-              "EditorCaption": ""
+              "DocumentIndex": 7,
+              "Title": "CustomerEditDialog.xaml",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\CustomerEditDialog.xaml",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\CustomerEditDialog.xaml",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\CustomerEditDialog.xaml",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\CustomerEditDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T06:20:16.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 21,
+              "Title": "AdminCustomerWindow.xaml",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminCustomerWindow.xaml",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\View\\AdminCustomerWindow.xaml",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\View\\AdminCustomerWindow.xaml",
+              "RelativeToolTip": "TruongAnhTuanWPF\\View\\AdminCustomerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T06:20:07.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "AdminBookingViewModel.cs",
               "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\AdminBookingViewModel.cs",
               "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\AdminBookingViewModel.cs",
               "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\AdminBookingViewModel.cs",
               "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\AdminBookingViewModel.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAADgv7EAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T13:51:13.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T06:19:29.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BookingDetailEditDialogViewModel.cs",
+              "DocumentMoniker": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\BookingDetailEditDialogViewModel.cs",
+              "RelativeDocumentMoniker": "TruongAnhTuanWPF\\ViewModel\\BookingDetailEditDialogViewModel.cs",
+              "ToolTip": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\ViewModel\\BookingDetailEditDialogViewModel.cs",
+              "RelativeToolTip": "TruongAnhTuanWPF\\ViewModel\\BookingDetailEditDialogViewModel.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwv0IAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T06:19:16.078Z"
             }
           ]
         }

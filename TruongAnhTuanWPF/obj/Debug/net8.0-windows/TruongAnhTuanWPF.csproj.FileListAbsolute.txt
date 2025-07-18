@@ -94,3 +94,8 @@ D:\.NET\Project\TruongAnhTuan_SE1850\TruongAnhTuanWPF\obj\Debug\net8.0-windows\V
 D:\.NET\Project\TruongAnhTuan_SE1850\TruongAnhTuanWPF\obj\Debug\net8.0-windows\View\BookingReservationEditDialog.g.cs
 D:\.NET\Project\TruongAnhTuan_SE1850\TruongAnhTuanWPF\obj\Debug\net8.0-windows\View\BookingDetailEditDialog.baml
 D:\.NET\Project\TruongAnhTuan_SE1850\TruongAnhTuanWPF\obj\Debug\net8.0-windows\View\BookingDetailEditDialog.g.cs
+D:\.NET\Project\TruongAnhTuan_SE1850\TruongAnhTuanWPF\obj\Debug\net8.0-windows\TruongAnhTuanWPF.sourcelink.json
+D:\.NET\Project\TruongAnhTuan_SE1850\TruongAnhTuanWPF\obj\Debug\net8.0-windows\View\AccountWindow.g.cs
+D:\.NET\Project\TruongAnhTuan_SE1850\TruongAnhTuanWPF\obj\Debug\net8.0-windows\View\HistoryWindow.g.cs
+D:\.NET\Project\TruongAnhTuan_SE1850\TruongAnhTuanWPF\obj\Debug\net8.0-windows\View\AccountWindow.baml
+D:\.NET\Project\TruongAnhTuan_SE1850\TruongAnhTuanWPF\obj\Debug\net8.0-windows\View\HistoryWindow.baml

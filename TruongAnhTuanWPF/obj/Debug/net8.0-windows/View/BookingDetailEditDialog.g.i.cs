@@ -52,7 +52,7 @@ namespace TruongAnhTuanWPF.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TruongAnhTuanWPF;component/view/bookingdetaileditdialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TruongAnhTuanWPF;V1.0.0.0;component/view/bookingdetaileditdialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\BookingDetailEditDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
