@@ -39,5 +39,13 @@ namespace TruongAnhTuanWPF.View
             HistoryWindow hw = new HistoryWindow(_customer);
             hw.ShowDialog();
         }
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            var loginWindow = new LoginWindow();
+            loginWindow.DataContext = new ViewModel.LoginViewModel(App._authServiceSingleton);
+            loginWindow.Show();
+            this.Close();
+        }
     }
 }

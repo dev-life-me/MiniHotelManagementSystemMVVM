@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\.NET\Project\TruongAnhTuan_SE1850\TruongAnhTuanWPF\App.xaml
-13-700254308
+14-1561872703
 
-29-2111364470
-236-1833117253
-MainWindow.xaml;View\AccountWindow.xaml;View\AdminBookingWindow.xaml;View\AdminCustomerWindow.xaml;View\AdminRoomWindow.xaml;View\AdminWindow.xaml;View\BookingDetailEditDialog.xaml;View\BookingReservationEditDialog.xaml;View\CustomerEditDialog.xaml;View\CustomerWindow.xaml;View\HistoryWindow.xaml;View\LoginWindow.xaml;View\RoomEditDialog.xaml;
+302137615104
+236-1479789920
+MainWindow.xaml;View\AccountWindow.xaml;View\AdminBookingWindow.xaml;View\AdminCustomerWindow.xaml;View\AdminRoomWindow.xaml;View\AdminWindow.xaml;View\BookingDetailEditDialog.xaml;View\BookingReservationEditDialog.xaml;View\CustomerEditDialog.xaml;View\CustomerWindow.xaml;View\HistoryWindow.xaml;View\LoginWindow.xaml;View\RoomEditDialog.xaml;View\StatisticsWindow.xaml;
 
 True
 

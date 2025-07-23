@@ -8,6 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Input;
 
+
 namespace TruongAnhTuanWPF.ViewModel
 {
     public class AdminBookingViewModel : INotifyPropertyChanged
@@ -17,6 +18,7 @@ namespace TruongAnhTuanWPF.ViewModel
         private readonly ManageBookingDetailService _manageBookingDetailService;
 
         private readonly ManageCustomerService _manageCustomerService;
+        private readonly ManageRoomService _manageRoomService;
         public ObservableCollection<BookingReservation> Reservations { get; set; }
         public ObservableCollection<BookingDetail> Details { get; set; }
 
@@ -48,13 +50,13 @@ namespace TruongAnhTuanWPF.ViewModel
         public ICommand AddDetailCommand { get; }
         public ICommand EditDetailCommand { get; }
         public ICommand DeleteDetailCommand { get; }
-        public ICommand ReloadCommand { get; }
 
-        public AdminBookingViewModel(ManageBookingService manageBookingService, ManageBookingDetailService manageBookingDetailService, ManageCustomerService manageCustomerService)
+        public AdminBookingViewModel(ManageBookingService manageBookingService, ManageBookingDetailService manageBookingDetailService, ManageCustomerService manageCustomerService, ManageRoomService manageRoomService)
         {
             _manageCustomerService = manageCustomerService;
             _manageBookingService = manageBookingService;
             _manageBookingDetailService = manageBookingDetailService;
+            _manageRoomService = manageRoomService;
             Reservations = new ObservableCollection<BookingReservation>(_manageBookingService.GetAllReservations());
             AddReservationCommand = new RelayCommand(_ => AddReservation());
             EditReservationCommand = new RelayCommand(_ => EditReservation(), _ => SelectedReservation != null);
@@ -62,7 +64,6 @@ namespace TruongAnhTuanWPF.ViewModel
             AddDetailCommand = new RelayCommand(_ => AddDetail(), _ => SelectedReservation != null);
             EditDetailCommand = new RelayCommand(_ => EditDetail(), _ => SelectedDetail != null);
             DeleteDetailCommand = new RelayCommand(_ => DeleteDetail(), _ => SelectedDetail != null);
-            ReloadCommand = new RelayCommand(_ => Reload());
         }
 
         private void AddReservation()
@@ -86,11 +87,12 @@ namespace TruongAnhTuanWPF.ViewModel
                     BookingDate = vm.BookingDate.HasValue ? DateOnly.FromDateTime(vm.BookingDate.Value) : (DateOnly?)null,
                     TotalPrice = vm.TotalPrice,
                     BookingStatus = vm.BookingStatus,
-                    BookingDetails = new System.Collections.Generic.List<BookingDetail>()
+                    BookingDetails = new List<BookingDetail>()
                 };
-       
                 _manageBookingService.AddReservation(newReservation);
                 SelectedReservation = newReservation;
+                Reload();
+                MessageBox.Show("Thêm đơn đặt phòng thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -114,6 +116,8 @@ namespace TruongAnhTuanWPF.ViewModel
                 SelectedReservation.BookingStatus = vm.BookingStatus;
                 _manageBookingService.UpdateReservation(SelectedReservation);
                 OnPropertyChanged(nameof(Reservations));
+                Reload();
+                MessageBox.Show("Cập nhật đơn đặt phòng thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -126,6 +130,8 @@ namespace TruongAnhTuanWPF.ViewModel
                 _manageBookingService.RemoveReservation(SelectedReservation);
                 Reservations.Remove(SelectedReservation);
                 SelectedReservation = null;
+                Reload();
+                MessageBox.Show("Xóa đơn đặt phòng thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -133,7 +139,7 @@ namespace TruongAnhTuanWPF.ViewModel
         {
             if (SelectedReservation == null) return;
             var dialog = new View.BookingDetailEditDialog();
-            var vm = new BookingDetailEditDialogViewModel();
+            var vm = new BookingDetailEditDialogViewModel(null, SelectedReservation.BookingDate?.ToDateTime(TimeOnly.MinValue));
             dialog.DataContext = vm;
             vm.RequestClose += result => dialog.DialogResult = result;
             if (dialog.ShowDialog() == true)
@@ -156,8 +162,10 @@ namespace TruongAnhTuanWPF.ViewModel
                     StartDate = vm.StartDate.HasValue ? DateOnly.FromDateTime(vm.StartDate.Value) : default,
                     EndDate = vm.EndDate.HasValue ? DateOnly.FromDateTime(vm.EndDate.Value) : default
                 };
-                _manageBookingDetailService.Add(newDetail);
+                _manageBookingService.AddDetail(newDetail);
                 OnPropertyChanged(nameof(Details));
+                Reload();
+                MessageBox.Show("Thêm chi tiết đặt phòng thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -181,6 +189,8 @@ namespace TruongAnhTuanWPF.ViewModel
                 SelectedDetail.EndDate = vm.EndDate.HasValue ? DateOnly.FromDateTime(vm.EndDate.Value) : default;
                 _manageBookingService.UpdateDetail(SelectedDetail);
                 OnPropertyChanged(nameof(Details));
+                Reload();
+                MessageBox.Show("Cập nhật chi tiết đặt phòng thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -194,6 +204,8 @@ namespace TruongAnhTuanWPF.ViewModel
                 SelectedReservation.BookingDetails.Remove(SelectedDetail);
                 Details.Remove(SelectedDetail);
                 OnPropertyChanged(nameof(Details));
+                Reload();
+                MessageBox.Show("Xóa chi tiết đặt phòng thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -238,6 +250,14 @@ namespace TruongAnhTuanWPF.ViewModel
                 error = "Ngày bắt đầu không hợp lệ.";
             else if (vm.EndDate == null)
                 error = "Ngày kết thúc không hợp lệ.";
+            else if (SelectedReservation != null && SelectedReservation.BookingDetails.Any(d => d.RoomId == vm.RoomId))
+                error = "Phòng này đã được thêm vào chi tiết đặt phòng!";
+            else
+            {
+                var room = _manageRoomService.GetAll().FirstOrDefault(r => r.RoomId == vm.RoomId);
+                if (room != null && room.RoomStatus == 1)
+                    error = "Phòng này đang được sử dụng, không thể thêm!";
+            }
             return string.IsNullOrEmpty(error);
         }
 

@@ -41,6 +41,8 @@ namespace TruongAnhTuanWPF.ViewModel
                 ErrorMessage = "Số điện thoại không được để trống.";
             else if (DateOfBirth == null)
                 ErrorMessage = "Ngày sinh không hợp lệ.";
+            else if (DateOfBirth >= DateTime.Today)
+                ErrorMessage = "Ngày sinh phải là ngày trong quá khứ.";
             else if (string.IsNullOrWhiteSpace(Password))
                 ErrorMessage = "Mật khẩu không được để trống.";
             else

@@ -20,6 +20,7 @@ namespace TruongAnhTuanWPF.ViewModel
         public ICommand SaveCommand { get; }
         public event Action<bool> RequestClose;
 
+        private readonly bool _isCreate;
         public BookingReservationEditDialogViewModel(BookingReservation reservation = null, BookingDetail detail = null)
         {
             if (reservation != null)
@@ -28,8 +29,13 @@ namespace TruongAnhTuanWPF.ViewModel
                 BookingDate = reservation.BookingDate.HasValue ? reservation.BookingDate.Value.ToDateTime(TimeOnly.MinValue) : (DateTime?)null;
                 TotalPrice = reservation.TotalPrice;
                 BookingStatus = reservation.BookingStatus;
+                _isCreate = false;
             }
-           
+            else
+            {
+                BookingDate = DateTime.Today;
+                _isCreate = true;
+            }
             SaveCommand = new RelayCommand(_ => Save());
         }
 
@@ -40,6 +46,8 @@ namespace TruongAnhTuanWPF.ViewModel
                 ErrorMessage = "Khách hàng không hợp lệ.";
             else if (BookingDate == null)
                 ErrorMessage = "Ngày đặt không hợp lệ.";
+            else if (_isCreate && BookingDate.Value.Date != DateTime.Today)
+                ErrorMessage = "Ngày đặt phải là ngày hiện tại.";
             else if (TotalPrice == null || TotalPrice < 0)
                 ErrorMessage = "Tổng tiền không hợp lệ.";
             else if (BookingStatus == null || BookingStatus < 0)

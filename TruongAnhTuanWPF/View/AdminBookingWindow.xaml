@@ -24,7 +24,7 @@
             <DataGrid x:Name="DetailDataGrid" ItemsSource="{Binding SelectedReservation.BookingDetails}" SelectedItem="{Binding SelectedDetail, Mode=TwoWay}"
                       AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Phòng" Binding="{Binding RoomId}" Width="100"/>
+                    <DataGridTextColumn Header="Phòng" Binding="{Binding Room.RoomNumber}" Width="100"/>
                     <DataGridTextColumn Header="Giá thực tế" Binding="{Binding ActualPrice}" Width="100"/>
                     <DataGridTextColumn Header="Ngày bắt đầu" Binding="{Binding StartDate, StringFormat=dd/MM/yyyy}" Width="120"/>
                     <DataGridTextColumn Header="Ngày kết thúc" Binding="{Binding EndDate, StringFormat=dd/MM/yyyy}" Width="120"/>
@@ -38,7 +38,6 @@
             <Button Content="Thêm chi tiết" Command="{Binding AddDetailCommand}" Width="120" Margin="5"/>
             <Button Content="Sửa chi tiết" Command="{Binding EditDetailCommand}" Width="120" Margin="5"/>
             <Button Content="Xóa chi tiết" Command="{Binding DeleteDetailCommand}" Width="120" Margin="5"/>
-            <Button Content="Reload" Command="{Binding ReloadCommand}" Width="120" Margin="5"/>
         </StackPanel>
     </Grid>
 </Window> 

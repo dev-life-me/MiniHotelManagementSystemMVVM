@@ -8,9 +8,9 @@ D:\.NET\Project\TruongAnhTuan_SE1850\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEd
 D:\.NET\Project\TruongAnhTuan_SE1850\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
 D:\.NET\Project\TruongAnhTuan_SE1850\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
 D:\.NET\Project\TruongAnhTuan_SE1850\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\.NET\Project\TruongAnhTuan_SE1850\BLL\obj\Debug\net8.0\BLL.sourcelink.json
 D:\.NET\Project\TruongAnhTuan_SE1850\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
 D:\.NET\Project\TruongAnhTuan_SE1850\BLL\obj\Debug\net8.0\BLL.dll
 D:\.NET\Project\TruongAnhTuan_SE1850\BLL\obj\Debug\net8.0\refint\BLL.dll
 D:\.NET\Project\TruongAnhTuan_SE1850\BLL\obj\Debug\net8.0\BLL.pdb
 D:\.NET\Project\TruongAnhTuan_SE1850\BLL\obj\Debug\net8.0\ref\BLL.dll
-D:\.NET\Project\TruongAnhTuan_SE1850\BLL\obj\Debug\net8.0\BLL.sourcelink.json

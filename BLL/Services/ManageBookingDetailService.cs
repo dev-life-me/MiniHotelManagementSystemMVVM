@@ -26,6 +26,7 @@ namespace BLL.Services
         public void Add(BookingDetail detail)
         {
             _detailRepo.Add(detail);
+            
         }
 
         public void Update(BookingDetail detail)

@@ -15,7 +15,7 @@ namespace DAL.Repositories
 
         public IEnumerable<BookingReservation> GetAll()
         {
-            return _context.BookingReservations.Include(r => r.BookingDetails).ToList();
+            return _context.BookingReservations.Include(r => r.BookingDetails) .ThenInclude(r => r.Room).ToList();
         }
 
         public void Add(BookingReservation reservation)

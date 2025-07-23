@@ -22,7 +22,6 @@ namespace TruongAnhTuanWPF.ViewModel
         public ICommand AddCommand { get; }
         public ICommand EditCommand { get; }
         public ICommand DeleteCommand { get; }
-        public ICommand RefreshCommand { get; }
         public ICommand SearchCommand { get; }
         public string SearchKeyword { get; set; }
 
@@ -33,7 +32,6 @@ namespace TruongAnhTuanWPF.ViewModel
             AddCommand = new RelayCommand(_ => AddRoom());
             EditCommand = new RelayCommand(_ => EditRoom(), _ => SelectedRoom != null);
             DeleteCommand = new RelayCommand(_ => DeleteRoom(), _ => SelectedRoom != null);
-            RefreshCommand = new RelayCommand(_ => Refresh());
             SearchCommand = new RelayCommand(_ => Search());
         }
 
@@ -55,7 +53,8 @@ namespace TruongAnhTuanWPF.ViewModel
                     RoomStatus = vm.RoomStatus
                 };
                 _manageRoomService.Add(newRoom);
-                Rooms.Add(newRoom);
+                ReloadRooms();
+                MessageBox.Show("Thêm phòng thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -75,7 +74,8 @@ namespace TruongAnhTuanWPF.ViewModel
                 SelectedRoom.RoomPricePerDay = vm.RoomPricePerDay;
                 SelectedRoom.RoomStatus = vm.RoomStatus;
                 _manageRoomService.Update(SelectedRoom);
-                Refresh();
+                ReloadRooms();
+                MessageBox.Show("Cập nhật phòng thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -88,28 +88,27 @@ namespace TruongAnhTuanWPF.ViewModel
                 bool deleted = _manageRoomService.Remove(SelectedRoom);
                 if (deleted)
                 {
-                    Rooms.Remove(SelectedRoom);
-                    MessageBox.Show("Đã xóa phòng thành công.");
+                    MessageBox.Show("Đã xóa phòng thành công.", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
                 else
                 {
-                    MessageBox.Show("Phòng đã có lịch sử đặt, chỉ đổi trạng thái sang 0.");
-                    Refresh();
+                    MessageBox.Show("Phòng đã có lịch sử đặt, chỉ đổi trạng thái sang 0.", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
+                ReloadRooms();
             }
-        }
-
-        private void Refresh()
-        {
-            Rooms.Clear();
-            foreach (var r in _manageRoomService.GetAll())
-                Rooms.Add(r);
         }
 
         private void Search()
         {
             Rooms.Clear();
             foreach (var r in _manageRoomService.Search(SearchKeyword))
+                Rooms.Add(r);
+        }
+
+        private void ReloadRooms()
+        {
+            Rooms.Clear();
+            foreach (var r in _manageRoomService.GetAll())
                 Rooms.Add(r);
         }
 

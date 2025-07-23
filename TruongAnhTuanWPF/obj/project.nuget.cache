@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gdWSA3oc5D0=",
+  "dgSpecHash": "S+HFKEH/nLc=",
   "success": true,
   "projectFilePath": "D:\\.NET\\Project\\TruongAnhTuan_SE1850\\TruongAnhTuanWPF\\TruongAnhTuanWPF.csproj",
   "expectedPackageFiles": [
@@ -21,8 +21,8 @@
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.2\\microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\9.0.2\\microsoft.extensions.configuration.fileextensions.9.0.2.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.configuration.json\\9.0.2\\microsoft.extensions.configuration.json.9.0.2.nupkg.sha512",
-    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.2\\microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
-    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.7\\microsoft.extensions.dependencyinjection.9.0.7.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.2\\microsoft.extensions.fileproviders.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\9.0.2\\microsoft.extensions.fileproviders.physical.9.0.2.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\9.0.2\\microsoft.extensions.filesystemglobbing.9.0.2.nupkg.sha512",

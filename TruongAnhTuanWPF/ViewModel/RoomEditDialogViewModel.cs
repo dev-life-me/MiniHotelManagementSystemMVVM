@@ -55,6 +55,10 @@ namespace TruongAnhTuanWPF.ViewModel
             {
                 ErrorMessage = "Số phòng không được để trống.";
             }
+            else if (App._roomInformationRepositorySingleton.GetAll().Any(r => r.RoomNumber == RoomNumber))
+            {
+                ErrorMessage = "Mã phòng đã tồn tại.";
+            }
             else if (SelectedRoomType == null)
             {
                 ErrorMessage = "Phải chọn loại phòng.";

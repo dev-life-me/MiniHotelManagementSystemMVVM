@@ -8,7 +8,7 @@ namespace TruongAnhTuanWPF.View
         public AdminBookingWindow()
         {
             InitializeComponent();
-            DataContext = new AdminBookingViewModel(App._manageBookingServiceSingleton, App._manageBookingDetailServiceSingleton, App._manageCustomerServiceSingleton);
+            DataContext = new AdminBookingViewModel(App._manageBookingServiceSingleton, App._manageBookingDetailServiceSingleton, App._manageCustomerServiceSingleton, App._manageRoomServiceSingleton);
         }
     }
 } 

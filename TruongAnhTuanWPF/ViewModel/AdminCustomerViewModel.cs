@@ -7,12 +7,13 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Input;
+using TruongAnhTuanWPF.View;
 
 namespace TruongAnhTuanWPF.ViewModel
 {
     public class AdminCustomerViewModel : INotifyPropertyChanged
     {
-        private readonly BLL.Services.ManageCustomerService _manageCustomerService;
+        private readonly ManageCustomerService _manageCustomerService;
         public ObservableCollection<Customer> Customers { get; set; }
 
         private Customer _selectedCustomer;
@@ -27,9 +28,8 @@ namespace TruongAnhTuanWPF.ViewModel
         public ICommand SearchCommand { get; }
         public string SearchKeyword { get; set; }
         public ICommand DeleteCommand { get; }
-        public ICommand RefreshCommand { get; }
 
-        public AdminCustomerViewModel(BLL.Services.ManageCustomerService manageCustomerService)
+        public AdminCustomerViewModel(ManageCustomerService manageCustomerService)
         {
             _manageCustomerService = manageCustomerService;
             Customers = new ObservableCollection<Customer>(_manageCustomerService.GetAll());
@@ -37,18 +37,17 @@ namespace TruongAnhTuanWPF.ViewModel
             EditCommand = new RelayCommand(_ => EditCustomer(), _ => SelectedCustomer != null);
             SearchCommand = new RelayCommand(_ => Search());
             DeleteCommand = new RelayCommand(_ => DeleteCustomer(), _ => SelectedCustomer != null);
-            RefreshCommand = new RelayCommand(_ => Refresh());
         }
 
         private void AddCustomer()
         {
-            var dialog = new TruongAnhTuanWPF.View.CustomerEditDialog();
+            var dialog = new CustomerEditDialog();
             var vm = new CustomerEditDialogViewModel();
             dialog.DataContext = vm;
             vm.RequestClose += result => { if (result) dialog.DialogResult = true; else dialog.DialogResult = false; };
             if (dialog.ShowDialog() == true)
             {
-                var newCustomer = new DAL.Entities.Customer
+                var newCustomer = new Customer
                 {
                     CustomerFullName = vm.CustomerFullName,
                     EmailAddress = vm.EmailAddress,
@@ -58,14 +57,15 @@ namespace TruongAnhTuanWPF.ViewModel
                     Password = vm.Password
                 };
                 _manageCustomerService.Add(newCustomer);
-                Customers.Add(newCustomer);
+                ReloadCustomers();
+                MessageBox.Show("Thêm khách hàng thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
         private void EditCustomer()
         {
             if (SelectedCustomer == null) return;
-            var dialog = new TruongAnhTuanWPF.View.CustomerEditDialog();
+            var dialog = new CustomerEditDialog();
             var vm = new CustomerEditDialogViewModel(SelectedCustomer);
             dialog.DataContext = vm;
             vm.RequestClose += result => { if (result) dialog.DialogResult = true; else dialog.DialogResult = false; };
@@ -78,7 +78,8 @@ namespace TruongAnhTuanWPF.ViewModel
                 SelectedCustomer.CustomerStatus = vm.Status;
                 SelectedCustomer.Password = vm.Password;
                 _manageCustomerService.Update(SelectedCustomer);
-                Refresh();
+                ReloadCustomers();
+                MessageBox.Show("Cập nhật khách hàng thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
@@ -89,15 +90,9 @@ namespace TruongAnhTuanWPF.ViewModel
             if (result == MessageBoxResult.Yes)
             {
                 _manageCustomerService.Remove(SelectedCustomer);
-                Customers.Remove(SelectedCustomer);
+                ReloadCustomers();
+                MessageBox.Show("Xóa khách hàng thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
             }
-        }
-
-        private void Refresh()
-        {
-            Customers.Clear();
-            foreach (var c in _manageCustomerService.GetAll())
-                Customers.Add(c);
         }
 
         private void Search()
@@ -111,6 +106,13 @@ namespace TruongAnhTuanWPF.ViewModel
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        private void ReloadCustomers()
+        {
+            Customers.Clear();
+            foreach (var c in _manageCustomerService.GetAll())
+                Customers.Add(c);
         }
     }
 } 
