@@ -28,7 +28,7 @@ namespace TruongAnhTuanWPF.ViewModel
 
         public RoomEditDialogViewModel(RoomInformation room = null)
         {
-            // Lấy danh sách RoomType từ singleton repository
+            
             RoomTypes = App._roomTypeRepositorySingleton.GetAll().ToList();
             if (room != null)
             {
@@ -54,10 +54,6 @@ namespace TruongAnhTuanWPF.ViewModel
             if (string.IsNullOrWhiteSpace(RoomNumber))
             {
                 ErrorMessage = "Số phòng không được để trống.";
-            }
-            else if (App._roomInformationRepositorySingleton.GetAll().Any(r => r.RoomNumber == RoomNumber))
-            {
-                ErrorMessage = "Mã phòng đã tồn tại.";
             }
             else if (SelectedRoomType == null)
             {

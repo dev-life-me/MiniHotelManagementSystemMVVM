@@ -250,13 +250,48 @@ namespace TruongAnhTuanWPF.ViewModel
                 error = "Ngày bắt đầu không hợp lệ.";
             else if (vm.EndDate == null)
                 error = "Ngày kết thúc không hợp lệ.";
+            // Kiểm tra ngày chi tiết phải nằm trong khoảng ngày của reservation
+            else if (SelectedReservation != null && SelectedReservation.BookingDate != null)
+            {
+                var bookingDate = SelectedReservation.BookingDate.Value.ToDateTime(TimeOnly.MinValue).Date;
+                var detailStart = vm.StartDate.Value.Date;
+                var detailEnd = vm.EndDate.Value.Date;
+                if (detailStart < bookingDate)
+                {
+                    error = "Ngày bắt đầu của chi tiết phải lớn hơn hoặc bằng ngày đặt phòng!";
+                    return false;
+                }
+                if (detailEnd < bookingDate)
+                {
+                    error = "Ngày kết thúc của chi tiết phải lớn hơn hoặc bằng ngày đặt phòng!";
+                    return false;
+                }
+            }
+            // Kiểm tra khách hàng hiện tại đã có chi tiết phòng này chưa
             else if (SelectedReservation != null && SelectedReservation.BookingDetails.Any(d => d.RoomId == vm.RoomId))
-                error = "Phòng này đã được thêm vào chi tiết đặt phòng!";
+            {
+                error = "Khách hàng này đã có chi tiết đặt phòng cho phòng này!";
+                return false;
+            }
             else
             {
-                var room = _manageRoomService.GetAll().FirstOrDefault(r => r.RoomId == vm.RoomId);
-                if (room != null && room.RoomStatus == 1)
-                    error = "Phòng này đang được sử dụng, không thể thêm!";
+                var newStart = vm.StartDate.Value.Date;
+                var newEnd = vm.EndDate.Value.Date;
+                // Lấy tất cả chi tiết của phòng này (mọi khách hàng)
+                var allDetails = _manageBookingDetailService.GetByRoomId(vm.RoomId);
+                foreach (var d in allDetails)
+                {
+                    // Nếu là update, bỏ qua chính nó
+                    if (SelectedDetail != null && d == SelectedDetail) continue;
+                    var existStart = d.StartDate.ToDateTime(TimeOnly.MinValue).Date;
+                    var existEnd = d.EndDate.ToDateTime(TimeOnly.MinValue).Date;
+                    // Nếu khoảng ngày bị giao nhau thì báo lỗi
+                    if (!(existEnd < newStart ))
+                    {
+                        error = "Phòng này đã có chi tiết đặt phòng bị trùng hoặc giao nhau ngày với khách hàng khác!";
+                        return false;
+                    }
+                }
             }
             return string.IsNullOrEmpty(error);
         }

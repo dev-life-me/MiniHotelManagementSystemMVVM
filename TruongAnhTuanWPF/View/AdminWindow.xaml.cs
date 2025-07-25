@@ -43,18 +43,19 @@ namespace TruongAnhTuanWPF.View
             bookingWindow.ShowDialog();
         }
 
-        private void Statistics_Click(object sender, RoutedEventArgs e)
-        {
-            var statisticsWindow = new StatisticsWindow();
-            statisticsWindow.ShowDialog();
-        }
-
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
             var loginWindow = new LoginWindow();
             loginWindow.DataContext = new LoginViewModel(App._authServiceSingleton);
             loginWindow.Show();
             this.Close();
+        }
+
+
+        private void Statistics_Click(object sender, RoutedEventArgs e)
+        {
+            var statsWindow = new StatisticsWindow();
+            statsWindow.ShowDialog();
         }
     }
 }

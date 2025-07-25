@@ -13,7 +13,7 @@
                       AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Mã đặt phòng" Binding="{Binding BookingReservationId}" Width="100"/>
-                    <DataGridTextColumn Header="Khách hàng" Binding="{Binding CustomerId}" Width="100"/>
+                    <DataGridTextColumn Header="Khách hàng" Binding="{Binding Customer.CustomerFullName}" Width="150"/>
                     <DataGridTextColumn Header="Ngày đặt" Binding="{Binding BookingDate, StringFormat=dd/MM/yyyy}" Width="120"/>
                     <DataGridTextColumn Header="Tổng tiền" Binding="{Binding TotalPrice}" Width="100"/>
                     <DataGridTextColumn Header="Trạng thái" Binding="{Binding BookingStatus}" Width="100"/>

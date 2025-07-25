@@ -8,8 +8,18 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <StackPanel>
-            <Label Content="Khách hàng (ID):"/>
-            <TextBox Text="{Binding CustomerId, UpdateSourceTrigger=PropertyChanged}"/>
+            <Label Content="Khách hàng:"/>
+            <ComboBox ItemsSource="{Binding Customers}" SelectedItem="{Binding SelectedCustomer, Mode=TwoWay}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding CustomerFullName}"/>
+                            <TextBlock Text=" - "/>
+                            <TextBlock Text="{Binding Telephone}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
 
             <Label Content="Ngày đặt:"/>
             <TextBox Text="{Binding BookingDate, StringFormat=dd/MM/yyyy}" IsReadOnly="True"/>

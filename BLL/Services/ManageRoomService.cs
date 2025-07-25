@@ -57,5 +57,7 @@ namespace BLL.Services
                                || (r.RoomStatus != null && r.RoomStatus.ToString().Contains(keyword)))
                       .ToList();
         }
+
+        
     }
 } 

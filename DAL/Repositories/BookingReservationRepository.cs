@@ -15,7 +15,11 @@ namespace DAL.Repositories
 
         public IEnumerable<BookingReservation> GetAll()
         {
-            return _context.BookingReservations.Include(r => r.BookingDetails) .ThenInclude(r => r.Room).ToList();
+            return _context.BookingReservations
+                .Include(r => r.Customer)
+                .Include(r => r.BookingDetails)
+                .ThenInclude(d => d.Room)
+                .ToList();
         }
 
         public void Add(BookingReservation reservation)
@@ -39,6 +43,7 @@ namespace DAL.Repositories
         public IEnumerable<BookingReservation> GetByCustomerId(int customerId)
         {
             return _context.BookingReservations
+                .Include(r => r.Customer)
                 .Include(r => r.BookingDetails)
                 .Where(r => r.CustomerId == customerId)
                 .ToList();

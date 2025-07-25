@@ -5,6 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using System.Windows;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace TruongAnhTuanWPF.ViewModel
 {
@@ -21,11 +22,27 @@ namespace TruongAnhTuanWPF.ViewModel
         public event Action<bool> RequestClose;
 
         private readonly bool _isCreate;
+        public List<Customer> Customers { get; set; }
+        private Customer _selectedCustomer;
+        public Customer SelectedCustomer
+        {
+            get => _selectedCustomer;
+            set
+            {
+                _selectedCustomer = value;
+                CustomerId = value?.CustomerId ?? 0;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(CustomerId));
+            }
+        }
+
         public BookingReservationEditDialogViewModel(BookingReservation reservation = null, BookingDetail detail = null)
         {
+            Customers = App._manageCustomerServiceSingleton.GetAll();
             if (reservation != null)
             {
                 CustomerId = reservation.CustomerId;
+                SelectedCustomer = Customers.FirstOrDefault(c => c.CustomerId == CustomerId);
                 BookingDate = reservation.BookingDate.HasValue ? reservation.BookingDate.Value.ToDateTime(TimeOnly.MinValue) : (DateTime?)null;
                 TotalPrice = reservation.TotalPrice;
                 BookingStatus = reservation.BookingStatus;
@@ -42,12 +59,14 @@ namespace TruongAnhTuanWPF.ViewModel
         private void Save()
         {
             ErrorMessage = string.Empty;
-            if (CustomerId <= 0)
-                ErrorMessage = "Khách hàng không hợp lệ.";
-            else if (BookingDate == null)
-                ErrorMessage = "Ngày đặt không hợp lệ.";
-            else if (_isCreate && BookingDate.Value.Date != DateTime.Today)
-                ErrorMessage = "Ngày đặt phải là ngày hiện tại.";
+            if (SelectedCustomer == null)
+                ErrorMessage = "Bạn phải chọn khách hàng.";
+            //else if (CustomerId <= 0)
+            //    ErrorMessage = "Khách hàng không hợp lệ.";
+            //else if (BookingDate == null)
+            //    ErrorMessage = "Ngày đặt không hợp lệ.";
+            //else if (_isCreate && BookingDate.Value.Date != DateTime.Today)
+            //    ErrorMessage = "Ngày đặt phải là ngày hiện tại.";
             else if (TotalPrice == null || TotalPrice < 0)
                 ErrorMessage = "Tổng tiền không hợp lệ.";
             else if (BookingStatus == null || BookingStatus < 0)

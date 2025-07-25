@@ -16,5 +16,5 @@ D:\.NET\Project\TruongAnhTuan_SE1850\TruongAnhTuanWPF\App.xaml
 236-1479789920
 MainWindow.xaml;View\AccountWindow.xaml;View\AdminBookingWindow.xaml;View\AdminCustomerWindow.xaml;View\AdminRoomWindow.xaml;View\AdminWindow.xaml;View\BookingDetailEditDialog.xaml;View\BookingReservationEditDialog.xaml;View\CustomerEditDialog.xaml;View\CustomerWindow.xaml;View\HistoryWindow.xaml;View\LoginWindow.xaml;View\RoomEditDialog.xaml;View\StatisticsWindow.xaml;
 
-True
+False
 
